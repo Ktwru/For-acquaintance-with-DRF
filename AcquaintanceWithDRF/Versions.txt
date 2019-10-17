@@ -1,0 +1,2 @@
+PostgreSQL 11.5
+Python 3.7
