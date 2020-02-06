@@ -15,3 +15,6 @@ class Car(models.Model):
     )
     car_type = models.IntegerField(verbose_name='Car_Type', choices=CAR_TYPES)
     user = models.ForeignKey(User, verbose_name='User', on_delete=models.CASCADE)
+
+    def __str__(self):
+        return self.brand
